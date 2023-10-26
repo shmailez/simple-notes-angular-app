@@ -1,0 +1,13 @@
+.form-create-note {
+    background-color: rgb(150, 150, 150);
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+}
+
+.submit-button {
+    background-color: beige;
+    margin-top: 10px;
+    padding: 5px;
+    border-radius: 2px;
+}

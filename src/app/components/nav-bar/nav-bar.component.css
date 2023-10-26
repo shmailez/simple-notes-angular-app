@@ -1,0 +1,13 @@
+
+.navigate {
+    width: 20vh;
+    height: calc(100% - 100px);
+    position: absolute;
+    border-right: 2px solid gray;
+}
+
+.note-title {
+    background-color: blanchedalmond;
+    margin: 10px;
+    padding: 10px;
+}

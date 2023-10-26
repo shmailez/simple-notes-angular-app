@@ -1,0 +1,9 @@
+<div class="navigate-container">
+    <div class="navigate">
+        <div *ngFor="let note of notes">
+            <div class="note-title" [routerLink]="['/note', note.id]">
+                <span>{{note.title}}</span>
+            </div> 
+        </div>
+    </div>
+</div>

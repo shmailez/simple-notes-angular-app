@@ -1,0 +1,11 @@
+.note-body {
+    background-color: aliceblue;
+    border-left: 2px solid gray;
+    margin: 10px;
+    margin-left: 20vh;
+    padding: 10px;
+}
+
+.note-title {
+    color: rgb(81, 81, 252);
+}

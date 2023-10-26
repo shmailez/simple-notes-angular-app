@@ -1,0 +1,21 @@
+<form 
+class="form-create-note"
+[formGroup]="form"
+(ngSubmit)="submit()"
+>
+<p>Заголовок</p>
+<input 
+    type="text"
+    formControlName="title"
+    appFocus
+>
+<p>Содержимое</p>
+<textarea 
+formControlName="body" name="body" id="" cols="30" rows="10"></textarea>
+
+<button
+ng-click="modalService.close()"
+class="submit-button"
+>Отправить</button>
+
+</form>

@@ -1,0 +1,16 @@
+<div class="header" routerLink="/">
+    <h1>Мои заметки</h1>
+
+
+    <app-modal
+    class="app-modal"
+    *ngIf="modalService.inVisible$ | async"
+    >
+      <app-create-note></app-create-note>
+    </app-modal>
+
+    <button
+   class="button-open-modal"
+   (click)="modalService.open()"
+  >Добавить заметку</button>
+</div>
