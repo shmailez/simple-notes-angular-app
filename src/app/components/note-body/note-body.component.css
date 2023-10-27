@@ -1,9 +1,8 @@
 .note-body {
-    background-color: aliceblue;
     border-left: 2px solid gray;
     margin: 10px;
     margin-left: 20vh;
-    padding: 10px;
+    padding: 20px;
 }
 
 .note-title {

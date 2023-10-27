@@ -7,7 +7,17 @@
 
 .submit-button {
     background-color: beige;
+    border: none;
     margin-top: 10px;
     padding: 5px;
     border-radius: 2px;
+}
+
+input {
+    border: none;
+    padding: 5px;
+}
+
+p {
+    margin: 5px;
 }

@@ -8,7 +8,7 @@ import { INotes } from '../models/notes';
 })
 export class NotesService {
 
-  url: string = 'http://localhost:3000/notes'
+  url: string = 'https://notes-app-e27e.onrender.com/notes'
   notes: any
 
   constructor(private http: HttpClient) { }
